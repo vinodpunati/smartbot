@@ -1,0 +1,16 @@
+.img-main-carousel{
+    max-height: 250px;
+    margin:0 auto;
+}
+h3,p{
+    color:black;
+    font-size: 12px;
+}
+
+.carousel ol.carousel-indicators{
+    bottom: -10px !important;
+}
+
+.carousel-caption{
+    bottom: -17px !important;
+}

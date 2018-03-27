@@ -1,0 +1,10 @@
+<carousel class="text-center" *ngIf="!isError">
+  <slide *ngFor="let product of products">
+    <img class="img-main-carousel" src="{{product.productImage}}" alt="First slide" style="display: block; width: 50%;">
+    <div class="carousel-caption d-none d-md-block">
+      <h3>{{product.productName}}</h3>
+      <h3>{{product.price}}</h3>
+    </div>
+  </slide>  
+</carousel>
+<div *ngIf="isError">{{errorMessage}}</div>
